@@ -1,0 +1,13 @@
+
+{
+    "endpoint": "/api/shop/create",
+    "headers": {
+        "Authorization": "accessToken from login"
+    },
+    "requestBody": {
+        "shop_name": "string",
+        "owner_id": "string",
+        "location": "string",
+        "phone": "string"
+    }
+}
